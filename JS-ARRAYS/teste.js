@@ -1,16 +1,16 @@
-const numero1 = 50;
-const numero2 = 43;
-const numero3 = 12;
+// const numero1 = 50;
+// const numero2 = 43;
+// const numero3 = 12;
 
-// utilizando array
-const numeros = [50, 43, 12];
+// // utilizando array
+// const numeros = [50, 43, 12];
 
-const arrayDeNumeros = [50, 43, 12];
-const arrayDeStrings = ["banana", "alura", "Juliana"];
+// const arrayDeNumeros = [50, 43, 12];
+// const arrayDeStrings = ["banana", "alura", "Juliana"];
 
-// índice     0   1   2   3
-const nums = [50, 43, 12, 98];
-console.log(nums.length) //4
+// // índice     0   1   2   3
+// const nums = [50, 43, 12, 98];
+// console.log(nums.length) //4
 
 // concat()
 // Junta dois arrays, colocando o array passado como argumento, logo depois do primeiro. Em português essa operação é conhecida como concatenação.
@@ -76,3 +76,10 @@ console.log(nums.length) //4
 // Como utilizar os métodos .push() e .pop():
 // Vimos como realizar as primeiras alterações em um array, como adicionar um novo item ao final ou remover o último item.
 
+
+// animaisDoAquario = ['🐋', '🐙', '🐬', '🦈']
+
+// animaisDoAquario.splice(1,0,'🐠')
+// animaisDoAquario.splice(3,2,'🐟')
+
+// console.log(animaisDoAquario)

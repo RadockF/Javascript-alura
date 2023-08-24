@@ -76,10 +76,19 @@
 // Como utilizar os métodos .push() e .pop():
 // Vimos como realizar as primeiras alterações em um array, como adicionar um novo item ao final ou remover o último item.
 
-
+// Remover e incluir novos elementos em um array com splice(); sendo que esse método permite remover elementos de qualquer posição do array.
 // animaisDoAquario = ['🐋', '🐙', '🐬', '🦈']
 
 // animaisDoAquario.splice(1,0,'🐠')
 // animaisDoAquario.splice(3,2,'🐟')
 
 // console.log(animaisDoAquario)
+
+
+// const nomes = ["Ana", "Juliana", "Leonardo"];
+// const idades = [30, 35, 28];
+// const faculdade = [false, true, true];
+
+// const funcionarios = [nomes, idades, faculdade];
+
+// console.log ( `O nome do alune é ${funcionarios[0][1]} e a idade dele é ${funcionarios[1][1]} `)

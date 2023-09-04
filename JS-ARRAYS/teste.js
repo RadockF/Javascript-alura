@@ -102,7 +102,7 @@
 
 Array 
 É utilziado para guardar dados, agrupar e organizar.
-Ter um espaço fixo na memoria do pc, porem não são fixos os tamanhos e os tipos, pois podem ser alterados e retirados. 
+Ter um espaço fixo na memoria do pc, porem não são fixos os tamanhos e os tipos, pois podem ser alterados ,retirados, mudados ou removidos. 
 Um bom exemplo é - são varios vagões de trens, cada um tem um elemento ou estrutra especifica dentro dele, seja objeto, numero, string.
 
 

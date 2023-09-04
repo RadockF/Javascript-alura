@@ -92,3 +92,49 @@
 // const funcionarios = [nomes, idades, faculdade];
 
 // console.log ( `O nome do alune é ${funcionarios[0][1]} e a idade dele é ${funcionarios[1][1]} `)
+
+// Utilizar os métodos includes() e indexOf():
+// O includes() retorna true ou false, dependendo se o valor passado como parâmetro está presente ou não no array. O indexOf() retorna a posição no array do valor passado como parâmetro. Utilizamos esses dois métodos em conjunto para primeiro verificar se um aluno estava presente em uma lista, e depois obter sua posição para buscar sua nota em outra lista.
+// Utilizar a estrutura for e entender seu funcionamento:
+// O for é constituído de três expressões: criação da variável de controle; condição de execução; modificação da variável de controle. Essas três expressões juntas definem quantas vezes o bloco do for será executado.
+// Utilizar a estrutura for of e entender a diferença em relação ao for:
+// O for of sempre é utilizado para percorrer todos os elementos de um array, do início ao fim. Para esses casos, o for of é mais conciso que o for.
+
+Array 
+É utilziado para guardar dados, agrupar e organizar.
+Ter um espaço fixo na memoria do pc, porem não são fixos os tamanhos e os tipos, pois podem ser alterados e retirados. 
+Um bom exemplo é - são varios vagões de trens, cada um tem um elemento ou estrutra especifica dentro dele, seja objeto, numero, string.
+
+
+
+
+
+
+POO
+Linguagens que tem POO - C++/Java/PHP/Python/Ruby e Microsoft/Apple tem suas linguagens com POO
+
+Vatagens 
+COMERNada
+C - confiavel - Ele isola as partes, para caso uma parte seja alterada, outra não ser afetada.
+O - oportuno - Por estar em varias partes, elas sao desenvolvidas idenpentes das outras partes.
+M - manutenivel - a manutenção é mais facil
+E - extensivel - Sempre está atualizando e se desenvolvendo
+R - reutilizavel - Ao criar uma classe em um projeto posso utilizar em outro projeto.
+N - natural - Sempre facil de entender, a funcionalidade é mais simples do que os detalhes de implementação.
+
+
+Classes
+Uma Classe é uma descrição de um conjunto de objetos que compartilham os mesmos atributos, operações, relacionamentos e semântica.
+Uma classe precisa responder 3 perguntas:
+coisas que eu tenho? - Atributo
+Um atributo é uma variável que pertence a um objeto. Os dados de um objeto são armazenados nos seus atributos.
+
+coisas que eu faço? - Metodo 
+Os métodos são as ações que o objeto pode realizar
+
+como estou agora ? - Estado 
+O estado de um objeto é representado pelas variáveis definidas na própria classe.
+
+Sendo eles:
+Concreto: que existe fisicamente.
+Abstrato: é um conceito.

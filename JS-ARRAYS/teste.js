@@ -101,9 +101,10 @@
 // O for of sempre é utilizado para percorrer todos os elementos de um array, do início ao fim. Para esses casos, o for of é mais conciso que o for.
 
 Array 
-É utilziado para guardar dados, agrupar e organizar.
+Uma boa forma de expressar é que ele é dinamico. 
+É utilizado para guardar dados, agrupar e organizar.
 Ter um espaço fixo na memoria do pc, porem não são fixos os tamanhos e os tipos, pois podem ser alterados ,retirados, mudados ou removidos. 
-Um bom exemplo é - são varios vagões de trens, cada um tem um elemento ou estrutra especifica dentro dele, seja objeto, numero, string.
+Um bom exemplo é - são varios vagões de trens, cada um tem um elemento ou estrutra especifica dentro dele, seja objeto, numero, string, arrays e etc.
 
 
 
@@ -138,3 +139,24 @@ O estado de um objeto é representado pelas variáveis definidas na própria cla
 Sendo eles:
 Concreto: que existe fisicamente.
 Abstrato: é um conceito.
+
+
+// const lista = [1, 2, 3, 4, 5];
+// let soma = 0;
+
+// lista.forEach(numero => soma += numero);
+// console.log(soma) //15
+
+// lista.forEach(numero => {
+//     soma += numero
+//    });
+
+// lista.forEach(function (numero) {
+//     soma += numero
+//    });
+
+// forEach() para trabalhar com arrays da forma mais  - percorrendo do primeiro ao último elemento, sem alterar a condição de parada, e também para manter a coesão do estilo quando em conjunto com outros métodos de array como map, filter e etc;
+
+// for…of em caso de iteráveis (dicionários, conjuntos e outras estruturas de dados) ou de arrays quando for necessário o uso de programação assíncrona e/ou dar condições de saída do laço (por exemplo, com o uso de break);
+
+// for para casos em que seja necessário manipular de forma mais fina as fases do laço (condição inicial, condição de parada e incremento).

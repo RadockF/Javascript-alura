@@ -100,45 +100,45 @@
 // Utilizar a estrutura for of e entender a diferença em relação ao for:
 // O for of sempre é utilizado para percorrer todos os elementos de um array, do início ao fim. Para esses casos, o for of é mais conciso que o for.
 
-Array 
-Uma boa forma de expressar é que ele é dinamico. 
-É utilizado para guardar dados, agrupar e organizar.
-Ter um espaço fixo na memoria do pc, porem não são fixos os tamanhos e os tipos, pois podem ser alterados ,retirados, mudados ou removidos. 
-Um bom exemplo é - são varios vagões de trens, cada um tem um elemento ou estrutra especifica dentro dele, seja objeto, numero, string, arrays e etc.
+// Array 
+// Uma boa forma de expressar é que ele é dinamico. 
+// É utilizado para guardar dados, agrupar e organizar.
+// Ter um espaço fixo na memoria do pc, porem não são fixos os tamanhos e os tipos, pois podem ser alterados ,retirados, mudados ou removidos. 
+// Um bom exemplo é - são varios vagões de trens, cada um tem um elemento ou estrutra especifica dentro dele, seja objeto, numero, string, arrays e etc.
 
 
 
 
 
 
-POO
-Linguagens que tem POO - C++/Java/PHP/Python/Ruby e Microsoft/Apple tem suas linguagens com POO
+// POO
+// Linguagens que tem POO - C++/Java/PHP/Python/Ruby e Microsoft/Apple tem suas linguagens com POO
 
-Vatagens 
-COMERNada
-C - confiavel - Ele isola as partes, para caso uma parte seja alterada, outra não ser afetada.
-O - oportuno - Por estar em varias partes, elas sao desenvolvidas idenpentes das outras partes.
-M - manutenivel - a manutenção é mais facil
-E - extensivel - Sempre está atualizando e se desenvolvendo
-R - reutilizavel - Ao criar uma classe em um projeto posso utilizar em outro projeto.
-N - natural - Sempre facil de entender, a funcionalidade é mais simples do que os detalhes de implementação.
+// Vatagens 
+// COMERNada
+// C - confiavel - Ele isola as partes, para caso uma parte seja alterada, outra não ser afetada.
+// O - oportuno - Por estar em varias partes, elas sao desenvolvidas idenpentes das outras partes.
+// M - manutenivel - a manutenção é mais facil
+// E - extensivel - Sempre está atualizando e se desenvolvendo
+// R - reutilizavel - Ao criar uma classe em um projeto posso utilizar em outro projeto.
+// N - natural - Sempre facil de entender, a funcionalidade é mais simples do que os detalhes de implementação.
 
 
-Classes
-Uma Classe é uma descrição de um conjunto de objetos que compartilham os mesmos atributos, operações, relacionamentos e semântica.
-Uma classe precisa responder 3 perguntas:
-coisas que eu tenho? - Atributo
-Um atributo é uma variável que pertence a um objeto. Os dados de um objeto são armazenados nos seus atributos.
+// Classes
+// Uma Classe é uma descrição de um conjunto de objetos que compartilham os mesmos atributos, operações, relacionamentos e semântica.
+// Uma classe precisa responder 3 perguntas:
+// coisas que eu tenho? - Atributo
+// Um atributo é uma variável que pertence a um objeto. Os dados de um objeto são armazenados nos seus atributos.
 
-coisas que eu faço? - Metodo 
-Os métodos são as ações que o objeto pode realizar
+// coisas que eu faço? - Metodo 
+// Os métodos são as ações que o objeto pode realizar
 
-como estou agora ? - Estado 
-O estado de um objeto é representado pelas variáveis definidas na própria classe.
+// como estou agora ? - Estado 
+// O estado de um objeto é representado pelas variáveis definidas na própria classe.
 
-Sendo eles:
-Concreto: que existe fisicamente.
-Abstrato: é um conceito.
+// Sendo eles:
+// Concreto: que existe fisicamente.
+// Abstrato: é um conceito.
 
 
 // const lista = [1, 2, 3, 4, 5];
@@ -160,3 +160,23 @@ Abstrato: é um conceito.
 // for…of em caso de iteráveis (dicionários, conjuntos e outras estruturas de dados) ou de arrays quando for necessário o uso de programação assíncrona e/ou dar condições de saída do laço (por exemplo, com o uso de break);
 
 // for para casos em que seja necessário manipular de forma mais fina as fases do laço (condição inicial, condição de parada e incremento).
+
+
+// const arrayNums = [1, 2, 3, 4]
+
+// function multiplicaPorDez(num) {
+//     return num * 10
+//    }
+
+//    const arraySomada = arrayNums.map(multiplicaPorDez)
+
+// console.log(arraySomada)
+
+
+
+// const arraySomada = arrayNums.map(num => num * 10)
+
+// console.log(arraySomada)
+
+// Como utilizar o map:
+// O map também aceita funções callback, assim como o forEach, e é adequado para quando queremos "reescrever" os valores de um array, sem modificar o array original. Um novo array é criado com os valores reescritos.

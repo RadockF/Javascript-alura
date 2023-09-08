@@ -180,3 +180,29 @@
 
 // Como utilizar o map:
 // O map também aceita funções callback, assim como o forEach, e é adequado para quando queremos "reescrever" os valores de um array, sem modificar o array original. Um novo array é criado com os valores reescritos.
+
+
+// const numeros = [43, 50, 65, 12]
+
+// const soma = numeros.reduce((acc, atual) => atual + acc, 0)
+
+// console.log(soma) -- 170
+
+// let num1 = 10;
+// let num2 = num1;
+
+// num2 += 5;
+// num1 += 1;
+
+// console.log(`Num1 é ${num1}. Num2 é ${num2}`);
+
+// const arrayOriginal = [7, 7, 8, 9];
+
+// function alteraArray(array) {
+//   array.push(10);
+
+//   console.log(`array do parâmetro é ${array}`);
+//   console.log(`arrayOriginal é ${arrayOriginal}`);
+// }
+
+// alteraArray(arrayOriginal);

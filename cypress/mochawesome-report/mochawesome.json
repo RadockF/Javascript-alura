@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-09-18T20:37:45.803Z",
+    "end": "2023-09-18T20:37:48.868Z",
+    "duration": 3065,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "384f9b25-0f3f-4c0e-ac3b-14ade0e5d802",
+      "title": "",
+      "fullFile": "cypress\\e2e\\teste.cy.js",
+      "file": "cypress\\e2e\\teste.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "03c3a318-2b2d-4759-b97e-c812fceb04b7",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "template spec passes",
+              "timedOut": null,
+              "duration": 1110,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "e05d8696-be08-4512-8c6e-8fd69d44c4eb",
+              "parentUUID": "03c3a318-2b2d-4759-b97e-c812fceb04b7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e05d8696-be08-4512-8c6e-8fd69d44c4eb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1110,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,15 +1,15 @@
-O Mocha é um framework de testes JavaScript, que pode ser utilizado tanto nos projetos back-end (rodando no Node.JS) 
-quanto nos projetos front-end (rodando diretamente no browser), para diversos tipos de teste, 
-seja BDD (Behavior Driven Development ou em tradução, Desenvolvimento Guiado por Comportamento) 
-ou TDD (Test Driven Development ou Desenvolvimento Orientado por Testes), síncrono ou assíncrono,
- usando o gerador de relatório que mais se adequa ao projeto.
+; O Mocha é um framework de testes JavaScript, que pode ser utilizado tanto nos projetos back-end (rodando no Node.JS) 
+; quanto nos projetos front-end (rodando diretamente no browser), para diversos tipos de teste, 
+; seja BDD (Behavior Driven Development ou em tradução, Desenvolvimento Guiado por Comportamento) 
+; ou TDD (Test Driven Development ou Desenvolvimento Orientado por Testes), síncrono ou assíncrono,
+;  usando o gerador de relatório que mais se adequa ao projeto.
 
-“reporter”: essa propriedade define o padrão de geração de relatórios. Configurando como padrão aqui no arquivo Cypress.json, sempre que o comando cypress run for disparado, o tipo de relatório gerado será do Mochawesome, mesmo que não seja incluído a opção --reporter mochawesome conforme demonstrado na aula.
-“reportDir”: diretório padrão onde serão gerados os relatórios.
-“overwrite”: caso não se inclua um timestamp, o relatório padrão é gerado com o nome mochawesome.json ou mochawesome.html. Para esses casos, definimos se o relatório será sobrescrito ou não.
-“html”: passamos o parâmetro true ou false para indicar se o relatório será gerado em formato HTML.
-“json”: passamos o parâmetro true ou false para indicar se o relatório será gerado em formato JSON.
-“timestamp”: formato de apresentação do relatório com relação à data e hora.
-“charts”: dá a possibilidade de gerar gráficos quando unificamos os resultados.
-“code”: mostra exatamente qual o código foi executado tanto na falha quanto no sucesso.
-“reportTitle”: o título a ser apresentado no relatório.
+; “reporter”: essa propriedade define o padrão de geração de relatórios. Configurando como padrão aqui no arquivo Cypress.json, sempre que o comando cypress run for disparado, o tipo de relatório gerado será do Mochawesome, mesmo que não seja incluído a opção --reporter mochawesome conforme demonstrado na aula.
+; “reportDir”: diretório padrão onde serão gerados os relatórios.
+; “overwrite”: caso não se inclua um timestamp, o relatório padrão é gerado com o nome mochawesome.json ou mochawesome.html. Para esses casos, definimos se o relatório será sobrescrito ou não.
+; “html”: passamos o parâmetro true ou false para indicar se o relatório será gerado em formato HTML.
+; “json”: passamos o parâmetro true ou false para indicar se o relatório será gerado em formato JSON.
+; “timestamp”: formato de apresentação do relatório com relação à data e hora.
+; “charts”: dá a possibilidade de gerar gráficos quando unificamos os resultados.
+; “code”: mostra exatamente qual o código foi executado tanto na falha quanto no sucesso.
+; “reportTitle”: o título a ser apresentado no relatório.

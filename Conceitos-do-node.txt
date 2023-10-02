@@ -1,0 +1,23 @@
+Node.js:
+O que é? Node.js é uma plataforma construída sobre o motor V8 do Google Chrome que permite a execução de JavaScript no lado do servidor.
+Por que é usado? Permite aos desenvolvedores utilizar JavaScript para criar aplicativos do lado do servidor, além de fornecer uma arquitetura orientada a eventos que é eficiente para operações de entrada e saída (I/O).
+
+Módulos:
+O que são? São bibliotecas ou pacotes de código JavaScript que podem ser facilmente incorporados em seus programas Node.js.
+Como usar? Você pode importar módulos em seu código usando a palavra-chave require. Por exemplo, const http = require('http'); importa o módulo HTTP para criar um servidor.
+
+NPM (Node Package Manager):
+O que é? É o sistema de gerenciamento de pacotes para Node.js, permitindo a instalação e gerenciamento de bibliotecas e ferramentas adicionais.
+Como usar? Você pode usar o comando npm install para instalar pacotes. Por exemplo, npm install express instala o framework Express.
+
+Callback:
+O que é? Em JavaScript, um callback é uma função que é passada como argumento para outra função e é executada após a conclusão de uma operação assíncrona.
+Por que é importante? Node.js é projetado para operações assíncronas, e os callbacks são usados para lidar com essas operações, garantindo que o código não seja bloqueado durante a execução de tarefas demoradas.
+
+Event Loop (Laço de Eventos):
+O que é? É o mecanismo que permite que Node.js execute operações não bloqueantes, mesmo sendo single-threaded.
+Como funciona? O Node.js utiliza o conceito de eventos e callbacks para lidar com operações assíncronas. O event loop gerencia a execução desses eventos de forma eficiente.
+
+Express:
+O que é? Express é um framework web para Node.js que simplifica o desenvolvimento de aplicativos web.
+Por que é popular? Facilita a definição de rotas, manipulação de requisições e respostas, e fornece uma estrutura organizada para o desenvolvimento de aplicativos web.

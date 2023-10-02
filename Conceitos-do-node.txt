@@ -14,7 +14,7 @@ Callback:
 O que é? Em JavaScript, um callback é uma função que é passada como argumento para outra função e é executada após a conclusão de uma operação assíncrona.
 Por que é importante? Node.js é projetado para operações assíncronas, e os callbacks são usados para lidar com essas operações, garantindo que o código não seja bloqueado durante a execução de tarefas demoradas.
 
-Event Loop (Laço de Eventos):
+Event Loop:
 O que é? É o mecanismo que permite que Node.js execute operações não bloqueantes, mesmo sendo single-threaded.
 Como funciona? O Node.js utiliza o conceito de eventos e callbacks para lidar com operações assíncronas. O event loop gerencia a execução desses eventos de forma eficiente.
 
